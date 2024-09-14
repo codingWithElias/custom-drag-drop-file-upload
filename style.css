@@ -1,0 +1,46 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: #e3ff71;
+	font-family: Arial, sans-serif;
+}
+
+.file-upload-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px dotted #ccc;
+	max-width: 400px;
+	width: 90%;
+	height: 300px;
+	flex-direction: column;
+	border-radius: 10px;
+	gap: 25px;
+	background: #f9f9f9;
+	cursor: pointer;
+}
+#uploadBtn {
+	width: 90%;
+	max-width: 200px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+#uploadBtn:hover {
+	transform: scale(1.2);
+	opacity: 0.8;
+}
+#fileName {
+	font-size: 16px;
+	font-style: italic;
+	color: #fff;
+	background: #00EC6A;
+	padding: 10px;
+	margin-bottom: -65px;
+}
+.dragover {
+	border-color: #4caf50;
+	background-color: #e0ffe0;
+}
